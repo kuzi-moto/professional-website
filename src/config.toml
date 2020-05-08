@@ -3,30 +3,16 @@ languageCode = "en-us"
 title = "KuzmaFesenko.com"
 copyright = "Copyright (c) 2020, all rights reserved."
 paginate = 3
-theme = "hugo-dusk"
+theme = "hugo-flex"
 
 [author]
   name = "Kuzma Fesenko"
 
-SectionPagesMenu = "main"
-
-# Configure syntax highlight
-[markup]
-  [markup.highlight]
-    style = "rrt" # dark themes: monokai, api, fruity, native, rrt, swapoff
-
-[[menu.main]]
-  name = "Posts"
-  weight = -120
-  identifier = "post"
-  url = "/post/"
-
-[[menu.main]]
-  name = "Tags"
-  weight = -110
-  identifier = "tag"
-  url = "/tags/"
-
 [params.meta]
   keywords = "blog, tech"
-  description = "Personal blog."
+  description = "Professional blog."
+
+# Theme configuration
+[params]
+  color = "SteelBlue"
+  widtd = "50%"
