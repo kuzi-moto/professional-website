@@ -1,10 +1,9 @@
 baseURL = "https://kuzmafesenko.com/"
 languageCode = "en-us"
-title = "KuzmaFesenko.com"
+title = "Kuzma Fesenko"
 copyright = "Copyright (c) 2020, all rights reserved."
 paginate = 3
 theme = "hugo-flex"
-#theme = "ananke"
 
 [author]
   name = "Kuzma Fesenko"
