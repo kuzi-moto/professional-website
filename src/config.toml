@@ -16,3 +16,5 @@ theme = "hugo-flex"
 [params]
   color = "SteelBlue"
   widtd = "50%"
+  [params.commento]
+    url = "https://commento.kuzimoto.com/"
