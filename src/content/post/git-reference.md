@@ -1,7 +1,8 @@
 ---
 title: "Git Reference"
 date: 2020-05-23T01:17:57Z
-draft: true
+publishDate: 2020-05-29
+draft: false
 ---
 
 # Git Reference

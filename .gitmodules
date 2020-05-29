@@ -1,12 +1,3 @@
-[submodule "src/themes/hugo-dusk"]
-	path = src/themes/hugo-dusk
-	url = https://github.com/gyorb/hugo-dusk.git
 [submodule "src/themes/hugo-flex"]
 	path = src/themes/hugo-flex
 	url = https://github.com/de-souza/hugo-flex.git
-[submodule "src/themes/twenty-twenty-hugo"]
-	path = src/themes/twenty-twenty-hugo
-	url = https://github.com/themefisher/twenty-twenty-hugo.git
-[submodule "src/themes/ananke"]
-	path = src/themes/ananke
-	url = https://github.com/budparr/gohugo-theme-ananke.git
