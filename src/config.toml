@@ -17,4 +17,4 @@ theme = "hugo-flex"
   color = "SteelBlue"
   widtd = "50%"
   [params.commento]
-    url = "https://kuzmafesenko.com/commento"
+    url = "https://commento.kuzmafesenko.com/"
