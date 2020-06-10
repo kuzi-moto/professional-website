@@ -1,6 +1,0 @@
-{{ with site.Params.commento }}
-  {{ if $.Type | in site.Params.mainSections | and .url }}
-  <script defer src="{{ .url }}js/commento.js"></script>
-<div id="commento"></div>
-  {{end}}
-{{end}}

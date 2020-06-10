@@ -3,7 +3,7 @@ languageCode = "en-us"
 title = "Kuzma Fesenko"
 copyright = "Copyright (c) 2020, all rights reserved."
 paginate = 3
-theme = "hugo-flex"
+theme = "hugo-kuzmafesenko"
 
 [author]
   name = "Kuzma Fesenko"
@@ -15,6 +15,21 @@ theme = "hugo-flex"
 # Theme configuration
 [params]
   color = "SteelBlue"
-  widtd = "50%"
+  width = "50%"
+  mainSections = ["post"]
   [params.commento]
     url = "https://commento.kuzmafesenko.com/"
+
+[menu]
+  [[menu.main]]
+    name = "About"
+    url = "about/"
+    weight = 1
+  [[menu.main]]
+    name = "Posts"
+    url = "post/"
+    weight = 2
+#  [[menu.main]]
+#    name = "Categories"
+#    url = "categories/"
+#    weight = 3
