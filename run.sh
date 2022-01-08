@@ -1,1 +1,1 @@
-sudo docker run --rm -ti ampache /bin/bash
+sudo docker run --rm -ti professional-website /bin/bash
