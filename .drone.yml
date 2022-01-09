@@ -12,3 +12,4 @@ steps:
         from_secret: docker_password
       repo: kuzimoto/professional-website
       tags: latest
+      recursive: true

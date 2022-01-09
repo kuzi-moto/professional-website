@@ -1,1 +1,1 @@
-sudo docker run --rm -ti professional-website /bin/bash
+sudo docker run --rm -p 80:80 -ti professional-website
