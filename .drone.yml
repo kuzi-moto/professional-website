@@ -3,13 +3,18 @@ type: docker
 name: professional-website
 
 steps:
-  - name: docker
-    image: plugins/docker
-    settings:
-      username:
-        from_secret: docker_username
-      password:
-        from_secret: docker_password
-      repo: kuzimoto/professional-website
-      tags: latest
-      recursive: true
+- name: submodules
+  image: alpine/git
+  commands:
+  - git submodule update --init --recursive
+
+- name: docker
+  image: plugins/docker
+  settings:
+    username:
+      from_secret: docker_username
+    password:
+      from_secret: docker_password
+    repo: kuzimoto/professional-website
+    tags: latest
+    recursive: true
