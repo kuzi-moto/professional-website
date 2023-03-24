@@ -5,28 +5,20 @@ publishDate: 2020-01-01
 draft: false
 ---
 
-## About Me
+# About Me
 
-Hello, I'm Kuzma Fesenko. By day, I'm a system administrator for [Optimizely](https://www.optimizely.com/), but by night I'm a researcher and aspiring blogger. Much of my free time is spent tinkering and playing with fun technology. My interest in computers comes second only to my amazing family.
-
-I had some goals in mind while creating this site. Primarily it is to share (hopefully) useful information that others may learn from. Secondary goals include learning to maintain a site, become a better writer, and to develop my critical thinking abilities.
-
-## About This Site
-
-The goal of this site is to provide helpful, interesting, or otherwise insightful ideas around technology and computer-y things.
-
-This site was built with [Hugo](https://gohugo.io/), runs on [Docker](https://www.docker.com/), eventually the source will be available on my personal [git server](https://git.kuzmafesenko.com).
+Hello, I'm Kuzma Fesenko. I am a service desk manager for [Optimizely](https://www.optimizely.com/), and have spent over ten years in IT. In the evening when I'm not spending time with my amazing family I am reading Hacker News or researching and playing with new technology.
 
 ## My Interests
 
-* Computers & Technology
-* Using, improving, and advocating for [FOSS (Free and Open Source Software)](https://en.wikipedia.org/wiki/Free_and_open-source_software)
-* Docker, containerization
+* Scripting & automation (mostly PowerShell)
+* Using and advocating for [FOSS (Free and Open Source Software)](https://en.wikipedia.org/wiki/Free_and_open-source_software)
+* Docker/containerization
 * [Self-hosting](https://github.com/awesome-selfhosted/awesome-selfhosted)
 * Internet/computer privacy and security
-* Scripting/automation (mostly PowerShell)
-* Web design and technologies
-* Writing/editing documentation
+* Web design
+* [Chess](https://lichess.org/@/kuzimoto)
+* Writing documentation
 * Podcasts
     * [All About Android](https://twit.tv/shows/all-about-android)
     * [Command Line Heros](https://www.redhat.com/en/command-line-heroes)
@@ -40,3 +32,9 @@ This site was built with [Hugo](https://gohugo.io/), runs on [Docker](https://ww
     * [The Privacy, Security, & OSINT Show](https://www.inteltechniques.com/podcast.html)
     * [The WAN Show](https://www.youtube.com/playlist?list=PL8mG-RkN2uTw7PhlnAr4pZZz2QubIbujH)
     * [WorkLife with Adam Grant](https://www.ted.com/podcasts/worklife)
+
+## About This Site
+
+The goal of this site is to provide helpful, interesting, or otherwise insightful ideas around technology and computer-y related things.
+
+This site is a labor of love, and I have done all of the design work, as well as the "code" to generate it. It was built with [Hugo](https://gohugo.io/) - a static site generator, and runs on [Docker](https://www.docker.com/). The source will be available soon!

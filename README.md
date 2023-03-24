@@ -1,6 +1,6 @@
 # professional-website
 
-A simple docker image for my website [kuzmafesenko.com](https://kuzmafesenko.com/). The website is built with [Hugo](https://gohugo.io/), with [Nginx](https://nginx.org/en/) as the webserver.
+A simple docker image for my website [kuzmafesenko.com](https://kuzmafesenko.com/). It is a simple static site built with [Hugo](https://gohugo.io/), and served with [Nginx](https://nginx.org/en/).
 
 ## Downloading
 
@@ -18,17 +18,17 @@ hugo new post/name.md
 
 The fastest way to view changes and work on drafts is to ensure that the Hugo binary is installed on your machine, enter the `/src` directory, and run:
 
-```
+```shell
 hugo server
 ```
 
-This allows hugo to build the site, and serve it using the built-in webserver. By default the site is available at [http://localhost:1313](http://localhost:1313). Hugo will even monitor changes to files and rebuild the site almost instantly.
+This allows hugo to build the site, and serve it using the built-in webserver. By default the site is available at [http://localhost:1313](http://localhost:1313). Hugo will even monitor changes to files and rebuild the site nearly instantaneously.
 
 ## Running
 
 ### From Docker Hub
 
-If you're reading this on Docker Hub and you're not me and for some reason you want to run my site, then the quickest way to using this image is with `docker run kuzimoto/professional-website`.
+If you are reading this on Docker Hub and you are not me, but you still want to run my site for some reason, the quickest way to use this image is by executing the command `docker run kuzimoto/professional-website`.
 
 ### Build with Dockerfile
 
