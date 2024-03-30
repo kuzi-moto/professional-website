@@ -1,9 +1,9 @@
 # Build Hugo site
 FROM debian:11-slim AS builder
-ARG HUGO_VERSION=0.91.2
+ARG HUGO_VERSION=0.124.1
 RUN apt update && apt install -y wget && \
-    wget https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_Linux-64bit.deb && \
-    dpkg -i hugo_${HUGO_VERSION}_Linux-64bit.deb
+    wget https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_Linux-amd64.deb && \
+    dpkg -i hugo_${HUGO_VERSION}_Linux-amd64.deb
 
 COPY ./src /src
 RUN hugo --source="/src" --destination="/output" --verbose
