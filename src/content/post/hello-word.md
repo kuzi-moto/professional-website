@@ -7,8 +7,6 @@ categories:
 - Miscellaneous
 ---
 
-# Hello World
-
 Welcome to the first post of my blog! It was created using [Hugo](https://gohugo.io/) a static site generator, and deployed with [Docker](https://www.docker.com/). The entire site contents and Docker image can be found on [GitHub](https://github.com/kuzi-moto/professional-website).
 
 My name is Kuzma Fesenko and I've been in IT for just over seven years. I'm starting this blog to document some of the interesting things I encounter in my work, or personal projects that may be useful to someone else. It will also serve as a sort of knowledge base for information that I refer to frequently but not enough to remember. I have relied on information from others for a long time so I'm hoping to I can begin to give back.

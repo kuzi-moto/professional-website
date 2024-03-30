@@ -1,0 +1,27 @@
+baseURL = "https://kuzmafesenko.com/"
+languageCode = "en-us"
+title = "Kuzma Fesenko"
+copyright = "Copyright © 2024 Kuzma Fesenko"
+paginate = 3
+theme = "hugo-kuzmafesenko"
+
+[frontmatter]
+  lastmod = ['lastmod']
+
+[params.meta]
+  keywords = "blog, tech"
+  description = "Professional blog."
+
+# Theme configuration
+[params]
+mainSections = ["post"]
+  [params.author]
+    name = "Kuzma Fesenko"
+  [[params.social]]
+    icon = "github"
+    url = "https://github.com/kuzi-moto"
+    weight = "1"
+  [[params.social]]
+    icon = "linkedin"
+    url = "https://www.linkedin.com/in/kuzmaf"
+    weight = "2"

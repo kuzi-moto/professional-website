@@ -2,17 +2,29 @@
 title: "Git Reference"
 date: 2020-05-23T01:17:57Z
 publishDate: 2020-05-29
-lastmod: 2022-10-02
+lastmod: 2024-03-24
 draft: false
 ---
 
-# Git Reference
-
-Git is an incredibly useful tool, but does come with a moderate learning curve. I don't use it frequently enough to learn it well so I often find myself searching for the same few commands. This page serves mostly as a personal reference, but will hopefully be of use to others as well.
+Git is an incredibly useful tool, but does come with a moderate learning curve. I don't use it frequently enough to learn it well so I often find myself searching for the same few commands. This page serves mostly as a personal reference, but will hopefully be of use to others as well. If you're really new to Git, I recommend reading through [What is Git](https://git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F#what_is_git_section).
 
 It will be updated as I find new things to add.
 
 ## Commands
+
+### Cloning a Repository
+
+```bash
+$ git clone [URL]
+```
+
+Likely the first command for many git users. Simply creates a local copy of a remote repository.
+
+### Updating Local Repository from Remote
+
+```bash
+$ git pull
+```
 
 ### Undo Changes to a Specific File
 
@@ -37,3 +49,11 @@ A "remote" is a copy of a repository, usually accessible from the internet or lo
 ```bash
 $ git remote -v
 ```
+
+### Show Configuration Information
+
+```bash
+$ git config -l
+```
+
+

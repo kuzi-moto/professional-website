@@ -1,13 +1,11 @@
 ---
-title: "About"
+title: "About Me"
 date: 2020-05-11T00:33:00Z
 publishDate: 2020-01-01
 draft: false
 ---
 
-# About Me
-
-Hello, I'm Kuzma Fesenko. I am a service desk manager for [Optimizely](https://www.optimizely.com/), and have spent over ten years in IT. In the evening when I'm not spending time with my amazing family I am reading Hacker News or researching and playing with new technology.
+Hello, I'm Kuzma Fesenko. I am an IT Automation Engineering Manager for [Optimizely](https://www.optimizely.com/), and have spent over ten years in IT. In the evening when I'm not spending time with my amazing family, I am reading Hacker News or researching and playing with technology.
 
 ## My Interests
 
@@ -25,7 +23,6 @@ Hello, I'm Kuzma Fesenko. I am a service desk manager for [Optimizely](https://w
     * [Darknet Diaries](https://darknetdiaries.com/)
     * [Hacker Valley Studio](https://hackervalley.com/)
     * [Hacked](https://podcasts.apple.com/us/podcast/hacked/id1049420219)
-    * [Reply All](https://gimletmedia.com/shows/reply-all/episodes)
     * [Self-Hosted](https://selfhosted.show/)
     * [The Adventure Zone](https://maximumfun.org/podcasts/adventure-zone/)
     * [The CyberWire Daily](https://thecyberwire.com/podcasts/daily-podcast)
