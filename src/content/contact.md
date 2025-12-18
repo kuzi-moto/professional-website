@@ -1,6 +1,7 @@
 ---
 title: "Contact Me"
 layout: "contact"
+description: "Get in touch with Kuzma Fesenko via the site’s contact form."
 date: 2024-03-25
 publishDate: 2024-03-25
 draft: false

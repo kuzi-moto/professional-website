@@ -1,5 +1,6 @@
 ---
 title: "Git Reference"
+description: "A quick-reference sheet for everyday Git commands I reach for and why."
 date: 2020-05-23T01:17:57Z
 publishDate: 2020-05-29
 lastmod: 2024-03-24
@@ -55,5 +56,4 @@ $ git remote -v
 ```bash
 $ git config -l
 ```
-
 

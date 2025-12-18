@@ -1,5 +1,6 @@
 ---
 title: "Hello World"
+description: "Kicking off the blog: why I’m writing about IT, automation, and the tech I tinker with."
 date: 2020-05-12T02:17:47Z
 publishDate: 2020-05-25
 draft: false

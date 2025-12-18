@@ -1,5 +1,6 @@
 ---
 title: "Hey, I'm Kuzma!"
+description: "Personal site and writing on IT automation, self-hosting, and tech experiments by Kuzma Fesenko."
 draft: false
 ---
 

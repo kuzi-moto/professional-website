@@ -1,5 +1,6 @@
 ---
 title: "About Me"
+description: "Learn more about Kuzma Fesenko, IT automation engineering manager and lifelong tech tinkerer."
 date: 2020-05-11T00:33:00Z
 publishDate: 2020-01-01
 draft: false

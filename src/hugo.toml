@@ -2,8 +2,14 @@ baseURL = "https://kuzmafesenko.com/"
 languageCode = "en-us"
 title = "Kuzma Fesenko"
 copyright = "Copyright © 2024 Kuzma Fesenko"
-paginate = 3
 theme = "hugo-kuzmafesenko"
+
+[module.hugoVersion]
+min = "0.152.2"
+extended = false
+
+[pagination]
+  pagerSize = 3
 
 [frontmatter]
   lastmod = ['lastmod']
@@ -17,6 +23,12 @@ theme = "hugo-kuzmafesenko"
 mainSections = ["post"]
   [params.author]
     name = "Kuzma Fesenko"
+  [params.contactForm]
+    enable = true
+    url = "https://formspree.io/f/mayrdroy"
+  [params.commentContactForm]
+    enable = true
+    message = "If you found this content interesting, or have some constructive criticism please send a message using the form!"
   [[params.social]]
     icon = "github"
     url = "https://github.com/kuzi-moto"
@@ -25,3 +37,17 @@ mainSections = ["post"]
     icon = "linkedin"
     url = "https://www.linkedin.com/in/kuzmaf"
     weight = "2"
+
+[menus]
+  [[menus.main]]
+    name = "About"
+    url = "about/"
+    weight = 1
+  [[menus.main]]
+    name = "Contact"
+    url = "contact/"
+    weight = 2
+  [[menus.main]]
+    name    = "Posts"
+    url = "post/"
+    weight = 3
