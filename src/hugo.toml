@@ -1,7 +1,7 @@
 baseURL = "https://kuzmafesenko.com/"
-languageCode = "en-us"
+locale = "en-US"
 title = "Kuzma Fesenko"
-copyright = "Copyright © 2024 Kuzma Fesenko"
+copyright = "Copyright © 2026 Kuzma Fesenko"
 theme = "hugo-kuzmafesenko"
 
 [module.hugoVersion]
