@@ -3,11 +3,14 @@ title: "Building a Self-Hosted Ebook System with BookLore and KOReader"
 description: ""
 date: 2025-09-09
 publishDate: 2025-12-18
-lastmod: 2025-12-18
+lastmod: 2026-08-08
 draft: false
 categories: []
 tags: []
 ---
+
+> [!WARNING]
+> Since writing this post, I’ve moved to [Grimmory](https://grimmory.org) and no longer recommend BookLore. I explain why [here](/post/why-i-moved-from-booklore-to-grimmory). Grimmory is a drop-in replacement, so the rest of this guide still applies.
 
 I used to be a big reader, but as I got older and busier, I realized I almost never read full-length novels. Of course I read a lot of interesting things online, but it’s just not the same.
 
